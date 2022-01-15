@@ -288,6 +288,7 @@ void CAMSEGTable::keyReleaseEvent(QKeyEvent * ev)
 
 void CAMSEGTable::fillCats()
 {
+    // fille categories
     m_catTree->clear();
     m_listCats.clear();
     QString nameRoot = "";
