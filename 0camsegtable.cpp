@@ -75,10 +75,10 @@ CAMSEGTable::CAMSEGTable(ObjectType p_viewType, Campaign* p_campaign, QWidget* p
     m_table->setAlternatingRowColors(true);
 
     m_catTree->header()->hide();
-
+    // configure camseg table
     setupBaseTable();
-    fillCats();
 
+    fillCats();    
     //Filter Widget
     filterWidget = new QWidget();
     txtNameFilter = new QLineEdit();
